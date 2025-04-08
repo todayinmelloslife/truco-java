@@ -69,32 +69,32 @@ public class jogo {
     }
 
     public static void mensagemTrucoAceito(String nome, int i) {
-        // TODO Auto-generated method stub
+        
         throw new UnsupportedOperationException("Unimplemented method 'mensagemTrucoAceito'");
     }
 
     public static void mensagemTrucoAceito(String nome, String nome2) {
-        // TODO Auto-generated method stub
+        
         throw new UnsupportedOperationException("Unimplemented method 'mensagemTrucoAceito'");
     }
 
     public static void mensagemAceitarSeis(String nome) {
-        // TODO Auto-generated method stub
+        
         throw new UnsupportedOperationException("Unimplemented method 'mensagemAceitarSeis'");
     }
 
     public static void mensagemAceitarNove(String nome) {
-        // TODO Auto-generated method stub
+        
         throw new UnsupportedOperationException("Unimplemented method 'mensagemAceitarNove'");
     }
 
     public static void mensagemTrucoNaoPedido(String nome) {
-        // TODO Auto-generated method stub
+        
         throw new UnsupportedOperationException("Unimplemented method 'mensagemTrucoNaoPedido'");
     }
 
     public static void mensagemUltimaCartaJogada(String nome, String string) {
-        // TODO Auto-generated method stub
+        
         throw new UnsupportedOperationException("Unimplemented method 'mensagemUltimaCartaJogada'");
     }
 }
