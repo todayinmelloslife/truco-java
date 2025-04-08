@@ -68,33 +68,27 @@ public class jogo {
         System.out.println("O jogo terminou empatado!");
     }
 
-    public static void mensagemTrucoAceito(String nome, int i) {
-        
-        throw new UnsupportedOperationException("Unimplemented method 'mensagemTrucoAceito'");
+    public static void mensagemTrucoAceito(String nome, int pontos) {
+        System.out.println(nome + " aceitou o Truco! A rodada agora vale " + pontos + " pontos.");
     }
 
-    public static void mensagemTrucoAceito(String nome, String nome2) {
-        
-        throw new UnsupportedOperationException("Unimplemented method 'mensagemTrucoAceito'");
+    public static void mensagemTrucoAceito(String nome1, String nome2) {
+        System.out.println(nome1 + " negou o Truco. Os pontos vão para " + nome2 + ".");
     }
 
     public static void mensagemAceitarSeis(String nome) {
-        
-        throw new UnsupportedOperationException("Unimplemented method 'mensagemAceitarSeis'");
+        System.out.println(nome + ", deseja aceitar 6 pontos? (s/n): ");
     }
 
     public static void mensagemAceitarNove(String nome) {
-        
-        throw new UnsupportedOperationException("Unimplemented method 'mensagemAceitarNove'");
+        System.out.println(nome + ", deseja aceitar 9 pontos? (s/n): ");
     }
 
     public static void mensagemTrucoNaoPedido(String nome) {
-        
-        throw new UnsupportedOperationException("Unimplemented method 'mensagemTrucoNaoPedido'");
+        System.out.println(nome + " decidiu não pedir Truco.");
     }
 
-    public static void mensagemUltimaCartaJogada(String nome, String string) {
-        
-        throw new UnsupportedOperationException("Unimplemented method 'mensagemUltimaCartaJogada'");
+    public static void mensagemUltimaCartaJogada(String nome, String carta) {
+        System.out.println("\nÚltima carta jogada por " + nome + ": " + carta);
     }
 }

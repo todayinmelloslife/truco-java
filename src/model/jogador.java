@@ -29,6 +29,9 @@ public class jogador {
     }
 
     public carta jogarCarta(int indice) {
+        if (indice < 0 || indice >= cartas.size()) {
+            throw new IndexOutOfBoundsException("Índice inválido para jogar carta.");
+        }
         return cartas.remove(indice);
     }
 
