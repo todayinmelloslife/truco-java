@@ -1,5 +1,5 @@
-import java.util.Scanner;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class Main {
     private static void limparConsole() {
@@ -71,10 +71,10 @@ public class Main {
                     jogo.mensagemCartasJogador(jogador1.getNome(), jogador1.mostrarCartas());
                     jogo.mensagemAceitarSeis(jogador1.getNome());
                     String respostaSeis = scanner.next().toLowerCase();
-                    if (respostaSeis.equals("aceitar")) {
+                    if (respostaSeis.equals("s")) { // Alterado para aceitar "s" para 6
                         pontosRodada = 6;
                         jogo.mensagemTrucoAceito(jogador1.getNome(), 6);
-                    } else if (respostaSeis.equals("negar")) {
+                    } else if (respostaSeis.equals("n")) { // Alterado para aceitar "n" para negar
                         jogo.mensagemTrucoAceito(jogador1.getNome(), jogador2.getNome());
                         pontosJogador2 += 6;
                         continue;
@@ -83,7 +83,7 @@ public class Main {
                         jogo.mensagemCartasJogador(jogador2.getNome(), jogador2.mostrarCartas());
                         jogo.mensagemAceitarNove(jogador2.getNome());
                         String respostaNove = scanner.next().toLowerCase();
-                        if (respostaNove.equals("aceitar")) {
+                        if (respostaNove.equals("s")) { // Alterado para aceitar "s" para 9
                             pontosRodada = 9;
                             jogo.mensagemTrucoAceito(jogador2.getNome(), 9);
                         } else {
@@ -122,7 +122,7 @@ public class Main {
                     jogo.mensagemCartasJogador(jogador2.getNome(), jogador2.mostrarCartas());
                     jogo.mensagemAceitarSeis(jogador2.getNome());
                     String respostaSeisJogador2 = scanner.next().toLowerCase();
-                    if (respostaSeisJogador2.equals("aceitar")) {
+                    if (respostaSeisJogador2.equals("s")) { // Alterado para aceitar "s" para 6
                         pontosRodada = 6;
                         jogo.mensagemTrucoAceito(jogador2.getNome(), 6);
                     } else {
@@ -163,7 +163,7 @@ public class Main {
                     jogo.mensagemCartasJogador(jogador1.getNome(), jogador1.mostrarCartas());
                     jogo.mensagemAceitarSeis(jogador1.getNome());
                     String respostaSeisJogador1 = scanner.next().toLowerCase();
-                    if (respostaSeisJogador1.equals("aceitar")) {
+                    if (respostaSeisJogador1.equals("s")) { // Alterado para aceitar "s" para 6
                         pontosRodada = 6;
                         jogo.mensagemTrucoAceito(jogador1.getNome(), 6);
                     } else {
@@ -202,6 +202,6 @@ public class Main {
             jogo.mensagemEmpateJogo();
         }
 
-        scanner.close();
-    }
+    scanner.close();
+}
 }
