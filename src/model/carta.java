@@ -12,7 +12,6 @@ public class carta {
     public void calcularForca(String manilha) {
         this.manilha = manilha;
 
-
         if (valor.equals(manilha)) {
             switch (naipe) {
                 case "Paus": forca = 14; break;
@@ -51,6 +50,6 @@ public class carta {
 
     @Override
     public String toString() {
-    return valor + " de " + naipe;
-}
+        return valor + " de " + naipe;
+    }
 }

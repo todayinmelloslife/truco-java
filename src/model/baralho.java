@@ -31,12 +31,10 @@ public class baralho {
         return cartas.isEmpty() ? null : cartas.remove(0);
     }
 
-    // Manilha
     public carta virarCarta() {
         vira = distribuirCarta();
         return vira;
     }
-
 
     public String getManilha() {
         if (vira == null) {
@@ -47,14 +45,12 @@ public class baralho {
         String[] valores = {"4", "5", "6", "7", "Q", "J", "K", "A", "2", "3"};
         int index = 0;
 
-        // Encontra o índice do valor da vira
         for (int i = 0; i < valores.length; i++) {
             if (valores[i].equals(valorVira)) {
                 index = i;
                 break;
             }
         }
-
 
         String valorManilha;
         if (index == valores.length - 1) {
@@ -71,6 +67,6 @@ public class baralho {
     }
 
     public carta getVira() {
-    return vira;
-}
+        return vira;
+    }
 }
