@@ -51,15 +51,3 @@ Para executar o projeto, siga os passos abaixo:<br><br>
 Este é um projeto de jogo desenvolvido em Java, utilizando conceitos de Programação Orientada a Objetos (POO). O jogo permite que dois jogadores participem, e ao final, um relatório é gerado com os resultados.
 
 
-Ao final do jogo, o sistema gera um relatório como o exemplo abaixo:
-
-```
-===== Relatório do Jogo =====
-Jogador 1: João - Pontos: 15
-Jogador 2: Maria - Pontos: 10
-=============================
-```
-
-
-Sinta-se à vontade para contribuir com melhorias ou novas funcionalidades para o projeto.
-
